@@ -1,0 +1,1036 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Outfit&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+body {
+	background-color: #60DCE8;
+	background-size: cover;
+	max-width: 1399px;
+	height: 720px;
+}
+
+main {
+	background-image: url(../img/fondo.jpg);
+	width: 100%;
+	height: 2200px;
+	max-width: 1399px;
+}
+
+#main_micro{
+	width: 95%;
+	height: 850px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header {
+	background-image: url(../img/header.png);
+	background-size: cover;
+	width: 100%;
+	height: 100px;
+
+}
+
+.header_micro{
+	width: 100%;
+	height: 90px;
+	background-color: red;
+}
+
+#contenedor{
+	width: 1000px;
+	height: 550px;
+	padding: 30px;
+	margin-left: 80px;
+	background-image: url(../img/fondo_titulo.png);
+	background-size: cover;
+}
+
+.logo{
+	width: 160px;
+	height: 90px;
+	margin-left: 555px;
+}
+
+h1{
+	color: #026368;
+	font-family: 'Londrina Solid', cursive;
+	margin-left: 430px;
+	font-size: 40px;
+padding-top: 240px;
+}
+
+h2{
+	color: #000000;
+	font-family: 'Outfit', sans-serif;
+	margin-left: 475px;
+	margin-top: 50px;
+	font-size: 17px;
+
+}
+
+.span{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.span2{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.arenita5{
+	width: 550px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+}
+
+#contenedor_quiensoy{
+	width: 350px;
+	height: 120px;
+	padding: 30px;
+	float: right;
+	clear: both;
+background-image: url(../img/tabla.png);
+	background-size: cover;
+	margin-top: 30px;
+	margin-right: 430px;
+}
+
+.zoom{
+	transition: ease-in .4s;
+
+}
+
+.zooom: hover{ 
+   transform: scale(1.2);
+}
+
+.titulo{
+	color: #026368;
+	font-family: 'Londrina Solid', cursive;
+	text-align: center;
+	font-size: 45px;
+	padding-left: 10px;
+	padding-top: 3px;
+
+}
+
+#contenedor_infoquiensoy{
+	width: 500px;
+	height: 230px;
+	padding: 30px;
+	float: left;
+	clear: both;
+	margin-left: 120px;
+	margin-top: 40px; 
+	background-color: #ffffff ;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+.info{
+	color: #000000;
+	font-family: 'Outfit', sans-serif;
+	font-size: 17px;
+
+}
+.cuadro1{
+	width: 400px;
+	float: right;
+	margin-right: 160px;
+	margin-top: 10px;
+}
+
+#contenedor_infodondevivo{
+	width: 500px;
+	height: 160px;
+	padding: 30px;
+	float: right;
+	clear: both;
+	margin-right: 100px;
+	margin-top: 70px; 
+	background-color: #ffffff ;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+.casa{
+	width: 400px;
+	width: left;
+	margin-left: 170px;
+	margin-top: 10px;
+}
+
+
+.footer{
+
+	height: 60px;
+	margin-top: 610px;
+}
+
+.uces{
+	width: 70px;
+	height: 40px;
+	float: left;
+	margin-left: 14%;
+	margin-top: 10px;
+}
+
+.minisitio{
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 500px;
+	margin-right: 31%;
+	margin-top: -30px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.nick{
+	width: 150px;
+	height: 20px;
+	float: right;
+	clear: both;
+	margin-right: 14%;
+	margin-top: -30px;
+}
+
+#galeria{
+	width: 950px;
+	height: 120px;
+	margin-left: -320px;
+	padding-left: 4.5%;
+	padding-top: 3%;
+	border-radius: 	10px 10px 10px 10px;
+	box-shadow: 10px 10px 20px #aaa;
+	margin-top: 16%;
+}
+
+}
+
+
+/* Large  (large desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+body {
+	background-color: #60DCE8;
+	background-size: cover;
+	max-width: 1199px;
+	height: 720px;
+}
+
+main {
+	background-image: url(../img/fondo.jpg);
+	width: 100%;
+	height: 2200px;
+	max-width: 1199px;
+}
+
+header {
+	background-image: url(../img/header.png);
+	background-size: cover;
+	width: 100%;
+	height: 100px;
+
+}
+
+#contenedor{
+	width: 1000px;
+	height: 550px;
+	padding: 30px;
+	margin-left: 0px;
+	background-image: url(../img/fondo_titulo.png);
+	background-size: cover;
+}
+
+.logo{
+	width: 160px;
+	height: 90px;
+	margin-left: 450px;
+}
+
+h1{
+	color: #026368;
+	font-family: 'Londrina Solid', cursive;
+	margin-left: 430px;
+	font-size: 40px;
+padding-top: 240px;
+}
+
+h2{
+	color: #000000;
+	font-family: 'Outfit', sans-serif;
+	margin-left: 475px;
+	font-size: 17px;
+
+}
+
+.span{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.span2{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.arenita5{
+	width: 550px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+}
+
+#contenedor_quiensoy{
+	width: 350px;
+	height: 120px;
+	padding: 30px;
+	float: right;
+	clear: both;
+background-image: url(../img/tabla.png);
+	background-size: cover;
+	margin-top: 30px;
+	margin-right: 300px;
+}
+
+.zoom{
+	transition: ease-in .4s;
+
+}
+
+.zooom: hover{ 
+   transform: scale(1.2);
+}
+
+.titulo{
+	color: #026368;
+	font-family: 'Londrina Solid', cursive;
+	text-align: center;
+	font-size: 45px;
+	padding-left: 10px;
+	padding-top: 3px;
+
+}
+
+#contenedor_infoquiensoy{
+	width: 500px;
+	height: 230px;
+	padding: 30px;
+	float: left;
+	clear: both;
+	margin-left: 270px;
+	margin-top: 20px; 
+	background-color: #ffffff ;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+.info{
+	color: #000000;
+	font-family: 'Outfit', sans-serif;
+	font-size: 17px;
+
+}
+.cuadro1{
+	width: 400px;
+	float: right;
+	margin-right: 270px;
+	margin-top: 10px;
+}
+
+#contenedor_infodondevivo{
+	width: 500px;
+	height: 160px;
+	padding: 30px;
+	float: right;
+	clear: both;
+	margin-right: 210px;
+	margin-top: 20px; 
+	background-color: #ffffff ;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+.casa{
+	width: 400px;
+	width: left;
+	margin-left: 350px;
+	margin-top: 10px;
+}
+
+
+.footer{
+
+	height: 60px;
+	margin-top: 430px;
+}
+
+.uces{
+	width: 70px;
+	height: 40px;
+	float: left;
+	margin-left: 16%;
+	margin-top: 10px;
+}
+
+.minisitio{
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 430px;
+	margin-right: 31%;
+	margin-top: -30px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.nick{
+	width: 150px;
+	height: 20px;
+	float: right;
+	clear: both;
+	margin-right: 7%;
+	margin-top: -30px;
+}
+
+#galeria{
+	width: 500px;
+	height: 250px;
+	margin-left: -110px;
+	padding-left: 6.5%;
+	padding-top: 8%;
+	border-radius: 	10px 10px 10px 10px;
+	box-shadow: 10px 10px 20px #aaa;
+	margin-top: 13%;
+}
+}
+
+
+
+
+
+/* Medium (min-width: 768px) and (max-width: 991px)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+body {
+	background-color: #60DCE8;
+	background-size: cover;
+	max-width: 992px;
+	height: 720px;
+}
+
+main {
+	background-image: url(../img/fondo.jpg);
+	width: 100%;
+	height: 2150px;
+	max-width: 992px;
+}
+
+header {
+	background-image: url(../img/header.png);
+	background-size: cover;
+	width: 100%;
+	height: 100px;
+
+}
+
+#contenedor{
+	width: 600px;
+	height: 350px;
+	padding: 100px;
+	margin-left: 60px;
+	background-image: url(../img/fondo_titulo.png);
+	background-size: cover;
+}
+
+.logo{
+	width: 160px;
+	height: 90px;
+	margin-left: 320px;
+}
+
+h1{
+	color: #026368;
+	font-family: 'Londrina Solid', cursive;
+	margin-left: 200px;
+	font-size: 20px;
+padding-top: 50px;
+}
+
+h2{
+	color: #000000;
+	font-family: 'Outfit', sans-serif;
+	margin-left: 200px;
+	font-size: 10px;
+
+}
+
+.span{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.span2{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.arenita5{
+	width: 550px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+}
+
+#contenedor_quiensoy{
+	width: 350px;
+	height: 120px;
+	padding: 30px;
+	float: right;
+	clear: both;
+background-image: url(../img/tabla.png);
+	background-size: cover;
+	margin-top: 30px;
+	margin-right: 210px;
+}
+
+.zoom{
+	transition: ease-in .4s;
+
+}
+
+.zooom: hover{ 
+   transform: scale(1.2);
+}
+
+.titulo{
+	color: #026368;
+	font-family: 'Londrina Solid', cursive;
+	text-align: center;
+	font-size: 45px;
+	padding-left: 10px;
+	padding-top: 3px;
+
+}
+
+#contenedor_infoquiensoy{
+	width: 550px;
+	height: 160px;
+	padding: 17px;
+	float: left;
+	clear: both;
+	margin-left: 120px;
+	margin-top: 30px; 
+	background-color: #ffffff ;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+.info{
+	color: #000000;
+	font-family: 'Outfit', sans-serif;
+	font-size: 15px;
+
+}
+.cuadro1{
+	width: 400px;
+	float: right;
+	margin-right: 170px;
+	margin-top: 10px;
+}
+
+#contenedor_infodondevivo{
+	width: 420px;
+	height: 140px;
+	padding: 25px;
+	float: right;
+	clear: both;
+	margin-right: 170px;
+	margin-top: 30px; 
+	background-color: #ffffff ;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+.casa{
+	width: 400px;
+	width: left;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+
+.footer{
+
+	height: 60px;
+	margin-top: 500px;
+}
+
+.uces{
+	width: 70px;
+	height: 40px;
+	float: left;
+	margin-left: 13%;
+	margin-top: 10px;
+}
+
+.minisitio{
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 280px;
+	margin-right: 31%;
+	margin-top: -40px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.nick{
+	width: 150px;
+	height: 20px;
+	float: right;
+	clear: both;
+	margin-right: 7%;
+	margin-top: -40px;
+}
+
+#galeria{
+	width: 500px;
+	height: 230px;
+	margin-left: -100px;
+	padding-left: 7%;
+	padding-top: 4%;
+	border-radius: 	10px 10px 10px 10px;
+	box-shadow: 10px 10px 20px #aaa;
+	margin-top: 13%;
+}
+}
+
+
+
+/* Small (min-width: 768px) and (max-width: 991px)*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+body {
+	background-color: #60DCE8;
+	background-size: cover;
+	max-width: 768px;
+	height: 600px;
+}
+
+main {
+	background-image: url(../img/fondo.jpg);
+	width: 100%;
+	height: 2700px;
+	max-width: 600px;
+}
+
+header {
+	background-image: url(../img/header.png);
+	background-size: cover;
+	width: 100%;
+	height: 100px;
+
+}
+
+#contenedor{
+	width: 500px;
+	height: 350px;
+	margin-left: 20px;
+	background-image: url(../img/fondo_titulo_small.png);
+	background-size: cover;
+}
+
+.logo{
+	width: 160px;
+	height: 90px;
+	margin-left: 220px;
+}
+
+h1{
+	color: #026368;
+	font-family: 'Londrina Solid', cursive;
+	margin-left: 250px;
+	font-size: 20px;
+padding-top: 150px;
+}
+
+h2{
+	color: #000000;
+	font-family: 'Outfit', sans-serif;
+	margin-left: 250px;
+	font-size: 25px;
+	margin-top: -20px;
+
+}
+
+.span{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.span2{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.arenita5{
+	width: 550px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+}
+
+#contenedor_quiensoy{
+	width: 350px;
+	height: 120px;
+	padding: 30px;
+	float: right;
+	clear: both;
+background-image: url(../img/tabla.png);
+	background-size: cover;
+	margin-top: 40px;
+	margin-right: 110px;
+}
+
+.zoom{
+	transition: ease-in .4s;
+
+}
+
+.zooom: hover{ 
+   transform: scale(1.2);
+}
+
+.titulo{
+	color: #026368;
+	font-family: 'Londrina Solid', cursive;
+	text-align: center;
+	font-size: 45px;
+	padding-left: 10px;
+	padding-top: 3px;
+
+}
+
+#contenedor_infoquiensoy{
+	width: 480px;
+	height: 180px;
+	padding: 17px;
+	float: left;
+	clear: both;
+	margin-left: 40px;
+	margin-top: 10px; 
+	background-color: #ffffff ;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+.info{
+	color: #000000;
+	font-family: 'Outfit', sans-serif;
+	font-size: 14px;
+
+}
+.cuadro1{
+	width: 400px;
+	float: right;
+	margin-right: 90px;
+	margin-top: 20px;
+}
+
+#contenedor_infodondevivo{
+	width: 430px;
+	height: 140px;
+	padding: 30px;
+	float: right;
+	clear: both;
+	margin-right: 70px;
+	margin-top: 10px; 
+	background-color: #ffffff ;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+.casa{
+	width: 400px;
+	width: left;
+	margin-left: 120px;
+	margin-top: 10px;
+}
+
+
+.footer{
+
+	height: 60px;
+	margin-top: 520px;
+}
+
+.uces{
+	width: 70px;
+	height: 40px;
+	float: left;
+	margin-left: 6%;
+	margin-top: 20px;
+}
+
+.minisitio{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	float: left;
+	margin-left: 100px;
+	margin-right: 22%;
+	margin-top: 30px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.nick{
+	width: 150px;
+	height: 20px;
+	float: right;
+	clear: both;
+	margin-right: 5%;
+	margin-top: -35px;
+}
+
+#galeria{
+	width: 350px;
+	height: 350px;
+	margin-left: -40px;
+	padding-left: 11%;
+	padding-top: 7%;
+	border-radius: 	10px 10px 10px 10px;
+	box-shadow: 10px 10px 20px #aaa;
+	margin-top: 13%;
+}
+}
+
+
+/* X-Large  (large desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+body {
+	background-color: #60DCE8;
+	background-size: cover;
+	max-width: 1600px;
+	height: 720px;
+}
+
+main {
+	background-image: url(../img/fondo.jpg);
+	width: 100%;
+	height: 2200px;
+	max-width: 1600px;
+}
+
+#main_micro{
+	width: 95%;
+	height: 850px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header {
+	background-image: url(../img/header.png);
+	background-size: cover;
+	width: 100%;
+	height: 100px;
+
+}
+
+
+#contenedor{
+	width: 1000px;
+	height: 550px;
+	padding: 30px;
+	margin-left: 80px;
+	background-image: url(../img/fondo_titulo.png);
+	background-size: cover;
+}
+
+.logo{
+	width: 160px;
+	height: 90px;
+	margin-left: 555px;
+}
+
+h1{
+	color: #026368;
+	font-family: 'Londrina Solid', cursive;
+	margin-left: 430px;
+	font-size: 40px;
+padding-top: 240px;
+}
+
+h2{
+	color: #000000;
+	font-family: 'Outfit', sans-serif;
+	margin-left: 445px;
+	margin-top: 10px;
+	font-size: 17px;
+
+}
+
+.span{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.span2{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.arenita5{
+	width: 550px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+}
+
+#contenedor_quiensoy{
+	width: 350px;
+	height: 120px;
+	padding: 30px;
+	float: right;
+	clear: both;
+background-image: url(../img/tabla.png);
+	background-size: cover;
+	margin-top: 30px;
+	margin-right: 510px;
+}
+
+.zoom{
+	transition: ease-in .4s;
+
+}
+
+.zooom: hover{ 
+   transform: scale(1.2);
+}
+
+.titulo{
+	color: #026368;
+	font-family: 'Londrina Solid', cursive;
+	text-align: center;
+	font-size: 45px;
+	padding-left: 10px;
+	padding-top: 3px;
+
+}
+
+#contenedor_infoquiensoy{
+	width: 600px;
+	height: 280px;
+	padding: 30px;
+	float: left;
+	clear: both;
+	margin-left: 100px;
+	margin-top: 40px; 
+	background-color: #ffffff ;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+.info{
+	color: #000000;
+	font-family: 'Outfit', sans-serif;
+	font-size: 20px;
+
+}
+.cuadro1{
+	width: 400px;
+	float: right;
+	margin-right: 200px;
+	margin-top: 30px;
+}
+
+#contenedor_infodondevivo{
+	width: 500px;
+	height: 170px;
+	padding: 25px;
+	float: right;
+	clear: both;
+	margin-right: 150px;
+	margin-top: 70px; 
+	background-color: #ffffff ;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+.casa{
+	width: 400px;
+	width: left;
+	margin-left: 250px;
+	margin-top: 10px;
+}
+
+
+.footer{
+
+	height: 60px;
+	margin-top: 500px;
+}
+
+.uces{
+	width: 70px;
+	height: 40px;
+	float: left;
+	margin-left: 14%;
+	margin-top: 80px;
+}
+
+.minisitio{
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 330px;
+	margin-right: 31%;
+	margin-top: 100px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.nick{
+	width: 150px;
+	height: 20px;
+	float: right;
+	clear: both;
+	margin-right: 14%;
+	margin-top: -30px;
+}
+
+#galeria{
+	width: 950px;
+	height: 120px;
+	margin-left: -320px;
+	padding-left: 4.5%;
+	padding-top: 3%;
+	border-radius: 	10px 10px 10px 10px;
+	box-shadow: 10px 10px 20px #aaa;
+	margin-top: 16%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
